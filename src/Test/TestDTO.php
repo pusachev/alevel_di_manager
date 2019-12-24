@@ -8,7 +8,7 @@ class TestDTO
 {
     private $data;
 
-    public function __construct(\SplFixedArray $fixarr, TestDTO $test, array $data = [])
+    public function __construct(\SplFixedArray $fixarr, array $data = [])
     {
         $this->data = $data;
     }
